@@ -12,10 +12,7 @@ const Hero = () => {
             I'm a <TypewriterText text="Software Engineer" />
           </div>
           <p className="text-gray-300 mb-8 max-w-lg">
-            Passionate software engineer with expertise in building modern web applications.
-            Focused on creating elegant solutions to complex problems while maintaining
-            clean, maintainable code. Committed to continuous learning and staying
-            current with emerging technologies.
+              I am a Software Engineer passionate about turning ideas into reality through innovative mobile and web applications. Leveraging expertise in modern development tools, frameworks, and AI technologies, I craft intelligent, user-friendly, and scalable solutions. From automation to predictive systems, I integrate AI to enhance functionality and create impactful experiences. Let’s collaborate to build something extraordinary and perfectly tailored to your needs.
           </p>
           <div className="flex items-center space-x-6">
             <button className="bg-lightGreen text-navy px-6 py-3 rounded-full font-medium hover:bg-opacity-90 transition-colors duration-300">
