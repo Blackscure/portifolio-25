@@ -2,6 +2,7 @@ import React from 'react';
 import { Github, Linkedin, Download } from 'lucide-react';
 import TypewriterText from './TypewriterText';
 
+
 const Hero = () => {
   return (
     <div className="min-h-screen pt-20 bg-navy">
@@ -21,7 +22,7 @@ const Hero = () => {
             </button>
             <div className="flex space-x-4">
               <a
-                href="https://github.com"
+                href="https://github.com/Blackscure"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 border border-lightGreen rounded-full text-lightGreen hover:bg-lightGreen hover:text-navy transition-colors duration-300"
@@ -29,7 +30,7 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/wekesa-buyahi-9819271a3/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 border border-lightGreen rounded-full text-lightGreen hover:bg-lightGreen hover:text-navy transition-colors duration-300"
@@ -43,7 +44,7 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-lightGreen opacity-20 rounded-full filter blur-xl"></div>
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80"
+              src="../../public/images/DSC_0006ee Copy.JPG"
               alt="Portrait"
               className="relative z-10 w-[400px] h-[400px] object-cover rounded-full mx-auto border-4 border-lightGreen"
             />
