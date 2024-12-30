@@ -1,45 +1,43 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ProjectCard from './ProjectCard';
+import tipsourceImage from '../../../public/images/tipsource.png';
+import property254Image from '../../../public/images/property254.png';
+import realstarImage from '../../../public/images/realstar.png';
+import tipserveImage from '../../../public/images/tipserve.png';
+
 
 const projects = [
   {
     number: '01',
     title: 'Tipsource',
     description: 'Enables creators to receive gifts directly from followers and viewers without sharing personal details. Facilitates seamless MPESA payments and other methods with no hefty platform fees. Users can pin their unique payment links on posts or bios to get tipped instantly, providing a safer and easier way to be rewarded.',
-    image: '../../../public/images/tipsource.png',
+    image: tipsourceImage,
     liveUrl: 'https://tipsource.io/'
   },
-  
   {
     number: '02',
     title: 'Property254',
     description: 'Property254 connects users with the most trusted and reliable real estate companies and agents, making it easy to find affordable land and houses for sale in Kenya.',
-    image: '../../../public/images/property254.png',
+    image: property254Image,
     liveUrl: 'https://property254.co.ke/'
   },
   {
     number: '03',
     title: 'Realstar',
     description: 'Realstar is a platform where writers can bid for jobs and get paid securely by the job owners via Stripe.',
-    image: '../../../public/images/realstar.png',
+    image: realstarImage,
     liveUrl: 'https://example.com'
   },
-  // {
-  //   number: '04',
-  //   title: 'SasaPay',
-  //   description: 'Real-time weather tracking with interactive maps',
-  //   image: '../../../public/images/sasapay.png',
-  //   liveUrl: 'https://play.google.com/store/apps/details?id=ke.co.sasapay.sasapay_app&hl=en&pli=1'
-  // },
   {
     number: '05',
     title: 'TipSource',
     description: 'Enables creators to receive gifts directly from followers and viewers without sharing personal details. Facilitates seamless MPESA payments and other methods with no hefty platform fees. Users can pin their unique payment links on posts or bios to get tipped instantly, providing a safer and easier way to be rewarded.',
-    image: '../../../public/images/tipserve.JPG',
+    image: tipserveImage,
     liveUrl: 'https://example.com'
   }
 ];
+
 
 const Portfolio = () => {
   const [currentProject, setCurrentProject] = useState(0);
