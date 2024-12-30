@@ -5,42 +5,38 @@ import ProjectCard from './ProjectCard';
 const projects = [
   {
     number: '01',
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform built with React and Node.js',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    title: 'Tipsource',
+    description: 'Enables creators to receive gifts directly from followers and viewers without sharing personal details. Facilitates seamless MPESA payments and other methods with no hefty platform fees. Users can pin their unique payment links on posts or bios to get tipped instantly, providing a safer and easier way to be rewarded.',
+    image: '../../../public/images/tipsource.png',
+    liveUrl: 'https://tipsource.io/'
   },
+  
   {
     number: '02',
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
+    title: 'Property254',
+    description: 'Property254 connects users with the most trusted and reliable real estate companies and agents, making it easy to find affordable land and houses for sale in Kenya.',
+    image: '../../../public/images/property254.png',
+    liveUrl: 'https://property254.co.ke/'
   },
   {
     number: '03',
-    title: 'Social Media Dashboard',
-    description: 'Analytics dashboard for social media management',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com',
+    title: 'Realstar',
+    description: 'Realstar is a platform where writers can bid for jobs and get paid securely by the job owners via Stripe.',
+    image: '../../../public/images/realstar.png',
     liveUrl: 'https://example.com'
   },
-  {
-    number: '04',
-    title: 'Weather Application',
-    description: 'Real-time weather tracking with interactive maps',
-    image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com'
-  },
+  // {
+  //   number: '04',
+  //   title: 'SasaPay',
+  //   description: 'Real-time weather tracking with interactive maps',
+  //   image: '../../../public/images/sasapay.png',
+  //   liveUrl: 'https://play.google.com/store/apps/details?id=ke.co.sasapay.sasapay_app&hl=en&pli=1'
+  // },
   {
     number: '05',
-    title: 'Portfolio Generator',
-    description: 'Dynamic portfolio website generator for developers',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80',
-    githubUrl: 'https://github.com',
+    title: 'TipSource',
+    description: 'Enables creators to receive gifts directly from followers and viewers without sharing personal details. Facilitates seamless MPESA payments and other methods with no hefty platform fees. Users can pin their unique payment links on posts or bios to get tipped instantly, providing a safer and easier way to be rewarded.',
+    image: '../../../public/images/tipserve.JPG',
     liveUrl: 'https://example.com'
   }
 ];

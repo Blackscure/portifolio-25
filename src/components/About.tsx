@@ -7,9 +7,9 @@ const About = () => {
   const experiences = [
     {
       period: '2022 - Present',
-      title: 'Frontend Developer',
-      location: 'Tech Company Inc.',
-      description: 'Led frontend development for multiple high-impact projects, implementing responsive designs and modern web technologies. Collaborated with cross-functional teams to deliver optimal user experiences.'
+      title: 'Fullstack Developer',
+      location: 'View Tech Ltd',
+      description: 'Built robust RESTful APIs and integrated third-party APIs to enhance application functionality. Designed and developed user-friendly front-end interfaces, ensuring optimal responsiveness and seamless user experiences. Collaborated with cross-functional teams to deliver high-impact projects using modern web technologies.'
     },
     {
       period: '2020 - 2022',

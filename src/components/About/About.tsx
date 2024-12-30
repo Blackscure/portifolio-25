@@ -9,28 +9,17 @@ const About = () => {
   const experiences = [
     {
       period: '2022 - Present',
-      title: 'Frontend Developer',
-      location: 'Tech Company Inc.',
-      description: 'Led frontend development for multiple high-impact projects, implementing responsive designs and modern web technologies.'
+      title: 'Software Developer',
+      location: 'View Tech Ltd',
+     
     },
     {
       period: '2020 - 2022',
-      title: 'Full Stack Developer',
-      location: 'Digital Solutions Ltd.',
-      description: 'Developed and maintained full-stack applications using React and Node.js. Implemented RESTful APIs and database solutions.'
+      title: 'Software  Developer',
+      location: 'Vap Technologies  Ltd.',
+     
     },
-    {
-      period: '2018 - 2020',
-      title: 'Backend Developer',
-      location: 'Software Corp',
-      description: 'Built scalable backend services and APIs using Node.js and Python. Managed database optimization and server infrastructure.'
-    },
-    {
-      period: '2016 - 2018',
-      title: 'Junior Developer',
-      location: 'Tech Startup',
-      description: 'Started career working on full-stack web applications. Gained experience with modern web technologies and best practices.'
-    }
+   
   ];
 
   const displayedExperiences = showAllExperiences ? experiences : experiences.slice(0, 2);
