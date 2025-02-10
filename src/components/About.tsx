@@ -17,6 +17,8 @@ const About = () => {
       location: 'Digital Solutions Ltd.',
       description: 'Developed and maintained full-stack applications using React and Node.js. Implemented RESTful APIs and database solutions for various client projects.'
     },
+
+    
     // Add more experiences as needed
   ];
 

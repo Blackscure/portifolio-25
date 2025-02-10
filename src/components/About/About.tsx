@@ -8,15 +8,37 @@ const About = () => {
 
   const experiences = [
     {
-      period: '2022 - Present',
-      title: 'Software Developer',
+      period: '2023 - Present',
+      title: 'Software Engineer',
+      location: 'Freelance',
+     
+    },
+
+
+    {
+      period: '2022 - 2023',
+      title: 'Fullstack Developer',
       location: 'View Tech Ltd',
      
     },
     {
-      period: '2020 - 2022',
+      period: '2022 - 2022',
       title: 'Software  Developer',
       location: 'Vap Technologies  Ltd.',
+     
+    },
+
+    {
+      period: '2021 - 2022',
+      title: 'Full stack  Developer',
+      location: 'Property254 (Real Estate)  Ltd.',
+     
+    },
+
+    {
+      period: '2020 - 2021',
+      title: 'Mobile  Developer',
+      location: 'Afriq  Ltd.',
      
     },
    

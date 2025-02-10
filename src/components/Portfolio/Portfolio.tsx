@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ProjectCard from './ProjectCard';
 import tipsourceImage from '../../../public/images/tipsource.png';
 import property254Image from '../../../public/images/property254.png';
-import realstarImage from '../../../public/images/realstar.png';
+import cityPlusImage from '../../../public/images/city-plus.png';
 import tipserveImage from '../../../public/images/tipserve.png';
 
 
@@ -24,10 +24,10 @@ const projects = [
   },
   {
     number: '03',
-    title: 'Realstar',
-    description: 'Realstar is a platform where writers can bid for jobs and get paid securely by the job owners via Stripe.',
-    image: realstarImage,
-    liveUrl: 'https://example.com'
+    title: 'City Plus',
+    description: 'Cityplus.ke’s purpose is to empower people and create economic opportunity for Kenyans in their local community. We help them connect to buy, sell and find almost anything across hundreds of categories, including Home & Garden, Cars, Jobs and more. .',
+    image: cityPlusImage,
+    liveUrl: 'https://cityplus.ke/'
   },
   {
     number: '05',
