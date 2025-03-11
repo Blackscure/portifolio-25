@@ -8,7 +8,7 @@ const About = () => {
 
   const experiences = [
     {
-      period: '2024 - Present',
+      period: 'Jan 2025 - Present',
       title: 'Software Engineer',
       location: 'Tatu Labs (Founder)',
      
@@ -16,7 +16,7 @@ const About = () => {
 
 
     {
-      period: 'Oct 2022 - Sep  2023',
+      period: 'Oct 2022 - Sep 2024',
       title: 'Fullstack Developer',
       location: 'View Tech Ltd',
      
