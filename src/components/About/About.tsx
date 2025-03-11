@@ -8,37 +8,31 @@ const About = () => {
 
   const experiences = [
     {
-      period: '2023 - Present',
+      period: '2024 - Present',
       title: 'Software Engineer',
-      location: 'Freelance',
+      location: 'Tatu Labs (Founder)',
      
     },
 
 
     {
-      period: '2022 - 2023',
+      period: 'Oct 2022 - Sep  2023',
       title: 'Fullstack Developer',
       location: 'View Tech Ltd',
      
     },
+   
     {
-      period: '2022 - 2022',
-      title: 'Software  Developer',
-      location: 'Vap Technologies  Ltd.',
-     
-    },
-
-    {
-      period: '2021 - 2022',
+      period: 'Jan 2021 - Oct 2022',
       title: 'Full stack  Developer',
-      location: 'Property254 (Real Estate)  Ltd.',
+      location: 'Vap Technologies',
      
     },
 
     {
-      period: '2020 - 2021',
-      title: 'Mobile  Developer',
-      location: 'Afriq  Ltd.',
+      period: 'Aug 2021 - Jan 2022',
+      title: 'Software  Developer',
+      location: 'Cal Kenya (Viu Sasa).',
      
     },
    
