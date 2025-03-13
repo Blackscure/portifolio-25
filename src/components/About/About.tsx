@@ -11,6 +11,7 @@ const About = () => {
       period: '2025 Feb - Present',
       title: 'Software Engineer',
       location: 'Tatu Labs (Founder)',
+      type: 'Full time',
      
     },
 
@@ -19,6 +20,7 @@ const About = () => {
       period: 'Oct 2022 - Sep 2024',
       title: 'Fullstack Developer',
       location: 'View Tech Ltd',
+      type: 'Contract',
      
     },
    
@@ -26,15 +28,14 @@ const About = () => {
       period: 'Jan 2021 - Oct 2022',
       title: 'Full stack  Developer',
       location: 'Vap Technologies',
-      
-     
+      type: 'Full time',
     },
 
     {
       period: 'Aug 2021 - Jan 2022',
       title: 'Software  Developer',
       location: 'Cal Kenya (Viu Sasa).',
-     
+      type: 'Internship',
     },
    
   ];
