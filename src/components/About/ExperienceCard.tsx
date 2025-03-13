@@ -6,9 +6,10 @@ interface ExperienceCardProps {
   title: string;
   location: string;
   description: string;
+  type: string;
 }
 
-const ExperienceCard = ({ period, title, location, description }: ExperienceCardProps) => (
+const ExperienceCard = ({ period, title, location, description,type }: ExperienceCardProps) => (
   <div className="bg-lightGreen bg-opacity-10 p-6 rounded-lg">
     <span className="text-lightGreen font-bold text-sm">{period}</span>
     <h4 className="text-white font-bold text-lg mt-2">{title}</h4>
@@ -17,6 +18,7 @@ const ExperienceCard = ({ period, title, location, description }: ExperienceCard
       <span className="ml-2">{location}</span>
     </div>
     <p className="text-gray-300 mt-4">{description}</p>
+    <p className="text-gray-300 mt-4">{type}</p>
   </div>
 )
 
