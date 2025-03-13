@@ -8,6 +8,7 @@ const About = () => {
 
   const experiences = [
     {
+
       period: '2025 Feb - Present',
       title: 'Software Engineer',
       location: 'Tatu Labs (Founder)',
