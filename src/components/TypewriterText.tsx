@@ -10,7 +10,7 @@ const TypewriterText = ({ text }: { text: string }) => {
         setDisplayText(text.substring(0, index));
         setIndex(index + 1);
       } else {
-        setIndex(0); // Reset to start typing again
+        setIndex(0);
       }
     }, 150);
 
