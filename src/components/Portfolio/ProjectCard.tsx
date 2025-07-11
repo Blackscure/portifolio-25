@@ -35,6 +35,7 @@ const ProjectCard = ({ number, title, description, image, githubUrl, liveUrl }: 
       <img
         src={image}
         alt={title}
+        loading="lazy"
         className="rounded-lg shadow-xl object-contain w-full max-h-[200px] sm:max-h-[250px] lg:max-h-[300px]"
       />
     </div>
