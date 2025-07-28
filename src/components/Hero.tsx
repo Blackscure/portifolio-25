@@ -7,7 +7,7 @@ const Hero = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "src/assets/Petro_buyahi.pdf"; 
+    link.href = "../../../public/assets/Petro_buyahi.pdf"; 
     link.download = "resume.pdf";
     link.click();
 
