@@ -25,7 +25,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="py-8 lg:py-12 bg-navy">
+    <div className="py-8 lg:py-20 bg-navy">
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 text-white">
           <h1 className="text-4xl lg:text-6xl font-bold mb-4">Petro Buyahi</h1>
