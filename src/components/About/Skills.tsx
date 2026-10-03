@@ -3,18 +3,14 @@ import SkillBar from './SkillBar';
 
 const skills = {
   frameworks: [
-    { name: 'Python - Django', percentage: 90 },
-    { name: 'Flutter - Dart', percentage: 87 },
-    { name: 'PHP - Laravel', percentage: 85 },
-    { name: 'JavaScript - React', percentage: 95 },
-    { name: 'Node - Express', percentage: 97 },
-    { name: 'Java - Spring', percentage: 88 },
+    { name: 'JavaScript - React', percentage: 100 },
+    { name: 'Node - Express', percentage: 100 },
+    { name: 'Java - Spring', percentage: 100 },
   ],
 
   databases: [
-    { name: 'MySQL', percentage: 92 },
-    { name: 'PostgreSQL', percentage: 92 },
-    { name: 'Redis', percentage: 85 },
+    { name: 'PostgreSQL', percentage: 100 },
+    { name: 'Redis', percentage: 100 },
   ],
 
   devops: [
@@ -25,9 +21,9 @@ const skills = {
   ],
 
   monitoring: [
-    { name: 'Prometheus', percentage: 75 },
-    { name: 'Sentry', percentage: 80 },
-    { name: 'Locust', percentage: 82 },
+    { name: 'Prometheus', percentage: 100 },
+    { name: 'Sentry', percentage: 100 },
+    { name: 'Locust', percentage: 100 },
   ],
 };
 

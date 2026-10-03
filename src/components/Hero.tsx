@@ -3,11 +3,11 @@ import { Github, Linkedin, Download } from "lucide-react";
 import TypewriterText from "./TypewriterText";
 
 const Hero = () => {
-  const [countdown, setCountdown] = useState(null);
+  const [countdown, setCountdown] = useState<number | null>(null);
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/assets/Petro_buyahi.pdf"; 
+    link.href = "/assets/Petro_buyahi.pdf";
     link.download = "resume.pdf";
     link.click();
 
@@ -19,13 +19,13 @@ const Hero = () => {
           clearInterval(interval);
           return null;
         }
-        return prev - 1;
+        return (prev as number) - 1;
       });
-    }, 30); 
+    }, 30);
   };
 
   return (
-    <div className="min-h-screen pt-20 bg-navy">
+    <div className="py-8 lg:py-12 bg-navy">
       <div className="container mx-auto px-6 flex flex-col lg:flex-row items-center justify-between">
         <div className="lg:w-1/2 text-white">
           <h1 className="text-4xl lg:text-6xl font-bold mb-4">Petro Buyahi</h1>
@@ -33,14 +33,10 @@ const Hero = () => {
             I'm a <TypewriterText text="Software Engineer" />
           </div>
           <p className="text-gray-300 mb-8 max-w-lg">
-            I am a Software Engineer passionate about turning ideas into
-            reality through innovative mobile and web applications. Leveraging
-            expertise in modern development tools, frameworks, and AI
-            technologies, I craft intelligent, user-friendly, and scalable
-            solutions. From automation to predictive systems, I integrate AI to
-            enhance functionality and create impactful experiences. Let’s
-            collaborate to build something extraordinary and perfectly tailored
-            to your needs.
+          I’m a Senior Software Engineer who builds scalable, high-performance applications and reliable backend systems.
+With experience across full-stack development, API design, databases, and modern web technologies, I focus on transforming complex business requirements into simple, maintainable, and production-ready solutions. I care deeply about software architecture, performance, security, code quality, and engineering practices that help teams move faster without sacrificing reliability.
+I don’t just write code — I design systems, solve complex problems, improve existing solutions, and help teams build software that can scale.
+
           </p>
           <div className="flex items-center space-x-6">
             <button
